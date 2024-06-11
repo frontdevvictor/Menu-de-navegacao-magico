@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --clr: #262433;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at 50% 50%, #192233 20%, #000);
+    min-height: 100vh;
+}
+.navigation {
+    width: 420px;
+    height: 70px;
+    background: #fff; /* Change Navigation Color here */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
